@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: kalivara17/springboot-app:1
+        image: kalivara17/springboot-app:replaceImageTag
         ports:
         - containerPort: 8080
